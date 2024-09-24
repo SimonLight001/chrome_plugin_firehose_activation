@@ -1,0 +1,14 @@
+body {
+    width: 300px;
+    padding: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#submitBtn {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}

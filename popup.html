@@ -1,0 +1,37 @@
+<!-- popup.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Popup</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <h1>Activate Activation Token</h1>
+  <h2>Enter Activation Token:</h2>
+  <form id="apiKeyForm">
+    <input type="text" id="apiKeyInput" placeholder="Enter Activation Token">
+    <button type="submit" id="submitBtn">Submit</button>
+  </form>
+
+  <div id="api_wrapper" class="hidden">
+    <p id=>Your API Key is:</p>
+    <p id="API_KEY_FIELD"></p>
+  </div>
+
+  <div id="documentation_wrapper" class="hidden">
+    <h2>Documentation:</h2>
+    <select name="platform" id="platform">
+      <option value="Postman">Postman</option>
+      <option value="Python">Python</option>
+      <option value="JavaScript Fetch">JavaScript Fetch</option>
+      <option value="Curl">Curl</option>
+    </select>
+    <p id="documentation">documentation goes here</p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
